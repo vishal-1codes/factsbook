@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt&display=swap');
+*{
+    font-family: 'Prompt', sans-serif;
+    background-color:white;
+}
+
+
+
+.wwh2{
+    text-align: center;
+    margin-right: 60px;
+}
+
+h2{
+    font-size: xx-large;
+    margin-top: 80px;
+    margin-left: 30px;
+}
+
+
+h1{
+    margin-left: 0px;
+    margin-top: 20px;
+    text-align: center;
+    align-items: center;
+}
+
+
+
+
+
+
+
+#p1{
+    margin-top: 20px;
+    margin-left: 80px;
+    position: absolute;
+    height: 80px;
+    width:180px;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    text-align: center;
+}
+
+#p1:hover{
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#p2{
+    margin-top: 20px;
+    margin-left: 320px;
+    position: absolute;
+    height: 80px;
+    width:180px;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    text-align: center;
+}
+
+#p2:hover{
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#p3{
+    margin-top: 20px;
+    margin-left: 560px;
+    position: absolute;
+    height: 80px;
+    width:180px;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    text-align: center;
+}
+
+#p3:hover{
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#p4{
+    margin-top: 20px;
+    margin-left: 800px;
+    position: absolute;
+    height: 80px;
+    width:180px;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    text-align: center;
+}
+
+#p4:hover{
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#p5{
+    margin-top: 50px;
+    margin-left: 1030px;
+    height: 80px;
+    width:180px;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    text-align: center;
+}
+
+#p5:hover{
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#p6{
+    margin-left: 565px;
+    margin-top: 80px;
+    color: blue;
+    background-color: white;
+    width: 180px;
+    height: 60px;
+    border-radius:20px;
+    cursor: pointer;
+    position: absolute;
+    font-size: xx-large;
+    background-color:white;
+    text-align: center;
+}
+
+
+

@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&family=Noto+Serif&display=swap');
+*{
+  font-family: 'Kanit', sans-serif;
+ }
+
+ .ddh2{
+     text-align: center;
+ }
+
+ .ddh1{
+     background-color:white;
+     color: black;
+     width: 500px;
+     height: 400px;
+     margin-left: 435px;
+     border-style: groove;
+ }
+
+ .ddone{
+     margin-left: 590px;
+     margin-top: -310px;
+     height:30px;
+     width: 200px;
+     background-color:white;
+     color: black;
+     text-align: center;
+     border-style: groove;
+ }
+
+ .ddid{
+   margin-left: 9px;
+   border-style: none;
+   background-color:white;
+ }
+
+ .ddcard{
+     background-color: black;
+     width: 0px;
+ }
+
+
+ .ddlone{
+     background-color:black;
+     color: white;
+     width: 300px;
+     height: 20px;
+     margin-left: 555px;
+ }
+
+ .ddfact_type{
+     margin-top:4px ;
+     margin-left: 9px;
+ }
+
+ .ddbtndiv{
+     background-color:black ;
+     width: 0px;
+ }
+
+ .dddbtn1{
+     background-color: red;
+     color: white;
+     width: 200px;
+     height: 40px;
+     margin-left: 590px;
+     margin-top: 0px;
+     border-radius: 40px;
+ }
+
+
+ /*
+
+ .img{
+     margin-right: 45px;
+     text-align: center;
+     align-items: center;
+ }
+
+ h2{
+     margin-right: 60px;
+     text-align: center;
+     font-size: 30px;
+ }
+
+ #dh1{
+    margin-right: 35px;
+    text-align: center;
+    font-size: 45px;
+    color: red;
+}
+
+p{
+    margin-right: 60px;
+    text-align: center;
+    font-size: 20px;
+    margin-top: -30px;
+}
+
+#f1{
+    margin-left: -15px;
+    width: 100%;
+}
+
+#one{
+    margin-top: 0px;
+    margin-left: 3px;
+}
+
+#id{
+    margin-left: 10px;
+}
+
+#lone{
+    font-size: 20px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: -5px;
+    margin-left: 535px;
+    position: absolute;
+    display: flex;
+}
+
+#fact_type{
+   margin-left: 10px;
+}
+
+
+#dbtn1{
+    background-color: white;
+    color:black;
+    width: 265px;
+    height: 30px;
+    align-items: center;
+    margin-top: 0px;
+    margin-left: 535px;
+    text-align: center;
+    border-color: red;
+    border-style: solid;
+    display:inline-flex ;
+    justify-content: center;
+}
+
+#btn1:focus{
+    padding-bottom:0%;
+    margin-bottom: 0px;
+  }
+*/

@@ -1,0 +1,106 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit&family=Noto+Serif&display=swap');
+*{
+  font-family: 'Kanit', sans-serif;
+ }
+
+ .a_nav{
+     background-color: black;
+     color: white;
+     width: 1366px;
+     height: 10vh;
+     text-align: center;
+     border: none;
+     margin-top: -15px;
+     margin-left: -15px;
+ }
+
+ #nav_one{
+     background: black;
+     color: white;
+     text-decoration: none;
+     margin-top: -39px;
+     margin-bottom: 18px;
+     text-align: center;
+     font-size: x-large;
+ }
+
+
+
+ .a_body{
+    width: 57%;   
+    height: 80vh;
+    background-color:white;
+    border-radius: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right:22px;
+    margin-bottom: 6%; 
+    position: absolute;
+    margin-left: -15px;
+ }
+
+ .a_2body{
+    width: 37%;   
+    height: 60vh;
+    background-color:white;
+    border-radius: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right:22px;
+    margin-bottom: 6%; 
+    position: absolute;
+ }
+
+ #nav_two{
+    color: green;
+    width: 200px;
+    height: 60px;
+    border-radius: 20px;
+    font-size: xx-large;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    text-decoration: none;
+ }
+
+#nav_three{
+    color: red;
+    width: 200px;
+    height: 60px;
+    border-radius: 20px;
+    font-size: xx-large;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    text-decoration: none;
+}
+
+#nav_four{
+    color: orange;
+    width: 200px;
+    height: 60px;
+    border-radius: 20px;
+    font-size: xx-large;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    text-decoration: none;
+}
+
+#nav_btn{
+    background-color:cornflowerblue ;
+    color: white;
+    width: 200px;
+    height: 30px;
+    font-size: large;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    text-decoration: none;
+    
+}
