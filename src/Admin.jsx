@@ -8,7 +8,7 @@ const Admin=()=>{
         <div className="a_nav">
         <a href="/factsbook" id="nav_one"><hr/>Factsbook-Admin</a>
         </div>
-        <div className="a_body" style={{height: '100vh', width: '100vw',backgroundSize:'cover',backgroundPosition:'center', backgroundImage:'url(https://images.pexels.com/photos/36717/amazing-animal-beautiful-beautifull.jpg?auto=compress&cs=tinysrgb&dpr=1&w=500)'}}>
+        <div className="a_body" style={{height: '100vh', width: '100vw',backgroundSize:'cover',backgroundPosition:'center', backgroundImage:'url(https://images.pexels.com/photos/2876511/pexels-photo-2876511.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500)'}}>
         <div className="a_2body">
         EDIT FACTSBOOK
         <hr/>
