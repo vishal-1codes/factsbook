@@ -9,22 +9,22 @@ Data is fetched using REST APIs from Flask and Python. Data is stored in MongoDB
 collections.*
 
 #Frontend Technologies - 
-HTML
-CSS
-React
+HTML,
+CSS,
+React,
 Javascript
 
 #Backend Technologies -
-Python
+Python,
 Flask APIs
 
 #Database and Tools -
-MongoDB
-MongoDB Compass
+MongoDB,
+MongoDB Compass,
 Postman
 
 #IDE and Code -
-Visual Studio Code
+Visual Studio Code,
 Git, Github
 
 *In this website first page can be landing page , landing page have logo of website and one heading with 5 different categories of facts,
