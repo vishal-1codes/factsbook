@@ -1,16 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-//import App from './App.js';
-//import Capp from './Capp.jsx';
 import reportWebVitals from './reportWebVitals';
-//import Fapp from './Fapp';
-//import Wapp from './Wapp';
-//import './index.css';
 import {BrowserRouter} from 'react-router-dom';
 import Zapp from './Zapp';
-//import Delete from './Dalete'
-//import Lpage from './Componets/Lpage'
-//import Admin from './Admin'
+
 
 ReactDOM.render(
   <BrowserRouter>

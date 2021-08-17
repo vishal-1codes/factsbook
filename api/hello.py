@@ -5,31 +5,14 @@ from bson import json_util
 from flask.wrappers import Request
 import pymongo
 import random
-import time
 
-from pymongo import collation
+
 from pymongo import collection
 app = Flask(__name__)
 
 client = pymongo.MongoClient("mongodb connection string", ssl=True,ssl_cert_reqs='CERT_NONE')
 db = client.factsbook
 collaction=db['facts']
-
-@app.route('/')
-def hello_world():
-    return 'Hello, World!'  
-
-@app.route('/mongotest')
-def connect_mongo():
-
-    cursor = db.facts.find({})
-    documents = [doc for doc in db.facts.find({})]
-    return json_util.dumps({documents})
-
-@app.route('/homepage')
-def home_page():
-    return 'Welcome to Factsbook' 
-
 
 
 @app.route('/space')
@@ -65,34 +48,17 @@ def fact_about_cars():
     return db.facts.find_one({'_id':str(ran),'fact_type':'cars'})
 
 
-@app.route('/hello')
-def hello():
-    return "hello"
-
-#checkcount_countDocuments_estimateDocumentCount
 @app.route('/checkcount',methods=['GET'])
 def checkcount():
-    #formData=request.get_json()
-    #c1=db.facts.find({},{"_id":"" ,"fact_type":'space'}).count()
-    #db.facts.find(count:"space")
-    #db.facts.aggregate([]).itcount();
     c1=db.facts.find({"fact_type":"space","fact_type":"ocean","fact_type":"human"}).count()
     formData=request.get_json()
     print(request.get_json())
     print(c1)
     return {"checkcount" : "success"}
-    #c1=db.facts.count_documents({})
-    #return(c1)
-    #return {"checkcount":"success"}
 
-#add_method
+
 @app.route('/addfacts',methods=['POST'])
 def addfacts():
-    #db.collection.countDocuments()
-    #count = db.collection.countDocuments((limit))
-    #print content['mytext']
-    #content=request.json
-    #'_id':[id]
     b1=db.facts.find({}).count()
     id=str(b1 + 1)
     formData=request.get_json()
@@ -100,7 +66,7 @@ def addfacts():
     print(request.get_json())
     return {"add" : "success"}
 
-#delete_method
+
 @app.route('/deletefacts',methods=['POST'])
 def deletefacts():
     print(request.get_json())
@@ -110,7 +76,7 @@ def deletefacts():
     print(type(formData['id']))
     return {"delete":"success"}
 
-#update_method
+
 @app.route('/updatefacts',methods=['POST'])
 def updatefacts():
     formData=request.get_json()
