@@ -3,8 +3,8 @@ import './Wapp.css';
 import logo from './favicon.ico';
 import { FaItunesNote ,FaWalking ,FaWater ,FaCar } from "react-icons/fa";
 import { IoRocketSharp } from "react-icons/io5";
-import { Route, Switch ,Link } from 'react-router-dom';
-import Capp from './Capp';
+import { Link } from 'react-router-dom';
+//import Capp from './Capp';
 
  const Wapp=()=>{
   return (
