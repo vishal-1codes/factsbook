@@ -10,7 +10,7 @@ import random
 from pymongo import collection
 app = Flask(__name__)
 
-client = pymongo.MongoClient("mongodb connection string", ssl=True,ssl_cert_reqs='CERT_NONE')
+client = pymongo.MongoClient("mongodb+srv://m001-student:m001122@cluster0.34cov.mongodb.net/factsbook?retryWrites=true&w=majority", ssl=True,ssl_cert_reqs='CERT_NONE')
 db = client.factsbook
 collaction=db['facts']
 
