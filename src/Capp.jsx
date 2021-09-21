@@ -12,7 +12,7 @@ const Capp  = () => {
   
 
   useEffect(()=>{
-    axios.get('http://localhost:5000/hoo').then(response => {
+    axios.get('http://172.31.6.14:5000/hoo').then(response => {
       console.log("SUCCESS", response)
       setGetMessage(response)
     }).catch(error => {
@@ -57,7 +57,7 @@ const cb5 = () => {
 
 const getFacts=(fact_type)=>{
   console.log('inside getFacts',fact_type)
-  axios.get('http://localhost:5000/'+fact_type+"").then(response => {
+  axios.get('http://172.31.6.14:5000/'+fact_type+"").then(response => {
     console.log("SUCCESS", response)
     setGetMessage(response)
   }).catch(error => {
