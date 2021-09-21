@@ -20,7 +20,7 @@ function App() {
   },[])
 
   useEffect(()=>{
-    axios.get('http://172.31.6.14:5000/ocean').then(response => {
+    axios.get('http://localhost:5000/ocean').then(response => {
       console.log("SUCCESS", response)
       setGetMessage(response)
     }).catch(error => {
