@@ -5,7 +5,7 @@ import logo from './favicon.ico';
 
  const Delete=()=>{
   
-  const url="http://localhost:5000/deletefacts"
+  const url="http://172.31.6.14:5000/deletefacts"
   const [data,setData]=useState({
    id:"", 
   })

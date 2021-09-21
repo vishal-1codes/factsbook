@@ -5,7 +5,7 @@ import logo from './favicon.ico';
 
  const Update=()=>{
   
-  const url="http://localhost:5000/updatefacts"
+  const url="http://172.31.6.14:5000/updatefacts"
   const [data,setData]=useState({
    id:"", 
    fact_body:""
