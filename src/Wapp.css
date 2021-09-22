@@ -129,7 +129,7 @@ h1{
 
 
 
-@media only screen and (min-width:375px){
+@media only screen and (max-width:375px) and (min-width:375px){
 
     *{
         font-family: 'Prompt', sans-serif;
@@ -252,7 +252,7 @@ h1{
 
 
 
-@media only screen and (min-width:414px){
+@media only screen and (max-width:414px) and (min-width:414px){
 
     *{
         font-family: 'Prompt', sans-serif;
@@ -358,6 +358,254 @@ h1{
 
 #p6{
     margin-left: 135px;
+    margin-top: 40px;
+    color: blue;
+    background-color: white;
+    width: 80px;
+    height: 60px;
+    border-radius:20px;
+    cursor: pointer;
+    position: absolute;
+    font-size: xx-large;
+    background-color:white;
+    text-align: center;
+}
+
+}
+
+
+@media only screen and (max-width:375px) and (min-width:375px){
+
+    *{
+        font-family: 'Prompt', sans-serif;
+        background-color:white;
+       
+    }
+
+
+    .wwh2{
+        text-align: center;
+        margin-right: 0px;
+    }
+
+    h2{
+        font-size: large;
+        margin-top: 80px;
+        margin-left: 0px;
+    }
+
+    h1{
+        margin-left: 0px;
+        margin-top: 20px;
+        margin-left: 0px;
+        text-align: center;
+        align-items: center;
+        font-size: medium;
+    }
+
+    
+#p1{
+    margin-top: 20px;
+    margin-left: 20px;
+    position: absolute;
+    height: 80px;
+    width:80px;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    text-align: center;
+}
+
+#p1:hover{
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#p2{
+    margin-top: 20px;
+    margin-left: 142px;
+    position: absolute;
+    height: 80px;
+    width:80px;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    text-align: center;
+}
+
+#p2:hover{
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#p3{
+    margin-top: 20px;
+    margin-left: 260px;
+    position: absolute;
+    height: 80px;
+    width:80px;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    text-align: center;
+}
+
+#p3:hover{
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#p4{
+    margin-top: 130px;
+    margin-left: 80px;
+    position: absolute;
+    height: 80px;
+    width:80px;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    text-align: center;
+}
+
+#p4:hover{
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#p5{
+    margin-top: 140px;
+    margin-left: 200px;
+    height: 80px;
+    width:80px;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    text-align: center;
+}
+
+#p5:hover{
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#p6{
+    margin-left: 115px;
+    margin-top: 40px;
+    color: blue;
+    background-color: white;
+    width: 80px;
+    height: 60px;
+    border-radius:20px;
+    cursor: pointer;
+    position: absolute;
+    font-size: xx-large;
+    background-color:white;
+    text-align: center;
+}
+
+}
+
+
+
+
+
+
+
+@media only screen and (max-width:320px) and (min-width:320px){
+
+    *{
+        font-family: 'Prompt', sans-serif;
+        background-color:white;
+       
+    }
+
+
+    .wwh2{
+        text-align: center;
+        margin-right: 0px;
+    }
+
+    h2{
+        font-size: large;
+        margin-top: 80px;
+        margin-left: 0px;
+    }
+
+    h1{
+        margin-left: 0px;
+        margin-top: 20px;
+        text-align: center;
+        align-items: center;
+        font-size: medium;
+    }
+
+    
+#p1{
+    margin-top: 20px;
+    margin-left: 10px;
+    position: absolute;
+    height: 80px;
+    width:80px;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    text-align: center;
+}
+
+#p1:hover{
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#p2{
+    margin-top: 20px;
+    margin-left: 115px;
+    position: absolute;
+    height: 80px;
+    width:80px;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    text-align: center;
+}
+
+#p2:hover{
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#p3{
+    margin-top: 20px;
+    margin-left: 220px;
+    position: absolute;
+    height: 80px;
+    width:80px;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    text-align: center;
+}
+
+#p3:hover{
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#p4{
+    margin-top: 130px;
+    margin-left: 60px;
+    position: absolute;
+    height: 80px;
+    width:80px;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    text-align: center;
+}
+
+#p4:hover{
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#p5{
+    margin-top: 140px;
+    margin-left: 170px;
+    height: 80px;
+    width:80px;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    text-align: center;
+}
+
+#p5:hover{
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#p6{
+    margin-left: 90px;
     margin-top: 40px;
     color: blue;
     background-color: white;
