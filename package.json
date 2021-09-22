@@ -52,6 +52,6 @@
       "last 1 firefox version",
       "last 1 safari version"
     ],
-    "proxy": "http://3.108.250.19"
+    "proxy": "http://15.206.164.196:5000"
   }
 }

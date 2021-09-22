@@ -5,7 +5,7 @@ import logo from './favicon.ico';
 
  const Fapp=()=>{
   
-  const url="http://3.108.250.19/addfacts"
+  const url="http://15.206.164.196:5000/addfacts"
   const [data,setData]=useState({
    fact_type:"",
    fact_body:""
